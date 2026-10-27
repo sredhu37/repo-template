@@ -1,0 +1,24 @@
+# Project name
+
+One sentence on what this does and who it is for.
+
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/sredhu37)
+[![Buy me a coffee on Ko-fi](https://img.shields.io/badge/Buy%20me%20a%20coffee-Ko--fi-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/sunnyredhu)
+
+## Getting started
+
+```bash
+# install and run steps
+```
+
+## Usage
+
+Short example.
+
+## Working with AI agents
+
+Rules for agents live in [AGENTS.md](AGENTS.md). Reusable skills live in [.claude/skills](.claude/skills).
+
+## Support
+
+If this saved you time, you can [sponsor me on GitHub](https://github.com/sponsors/sredhu37) or [buy me a coffee on Ko-fi](https://ko-fi.com/sunnyredhu).
