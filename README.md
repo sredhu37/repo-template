@@ -16,7 +16,14 @@ Short example.
 
 ## Working with AI agents
 
-Rules for agents live in [AGENTS.md](AGENTS.md). Reusable skills live in [.claude/skills](.claude/skills).
+- Rules and definition of done: [AGENTS.md](AGENTS.md)
+- Architecture map: [ARCHITECTURE.md](ARCHITECTURE.md), vocabulary: [GLOSSARY.md](GLOSSARY.md), decisions: [docs/adr](docs/adr)
+- Project skills: [.claude/skills](.claude/skills) (`/demo`, `/write-handoff-notes`)
+- Matt Pocock skills (`/grill-with-docs`, `/wayfinder`, `/triage`) are enabled in `.claude/settings.json`. Install once per clone:
+
+```bash
+claude plugin install mattpocock-skills@claude-plugins-official --scope project
+```
 
 ## Support
 
