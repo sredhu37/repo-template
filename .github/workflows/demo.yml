@@ -34,4 +34,5 @@ jobs:
       - if: always() && steps.upload.outputs.artifact-url != ''
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh pr comment ${{ github.event.pull_request.number }} --body "Demo video (download the artifact zip): ${{ steps.upload.outputs.artifact-url }}"
+        run: |
+          gh pr comment ${{ github.event.pull_request.number }} --body "Demo video, download the artifact zip: ${{ steps.upload.outputs.artifact-url }}"

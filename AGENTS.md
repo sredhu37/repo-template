@@ -11,7 +11,7 @@ A change is done only when all of these hold:
 1. Tests and linters pass, with real output shown.
 2. For a UI change: a demo video exists (`/demo` locally, CI uploads it on the pull request).
 3. `ARCHITECTURE.md` is updated if structure changed. New terms go in `GLOSSARY.md`, hard decisions in `docs/adr/`.
-4. A handoff is written: what changed, what is verified, what is left (`/write-handoff-notes`).
+4. A handoff is written: what changed, what is verified, what is left (`/handoff`).
 
 ## Style
 - No em dashes. Direct tone. No filler in code comments or docs.
@@ -42,4 +42,4 @@ Single-context: `GLOSSARY.md` and `docs/adr/` at the repo root. See `docs/agents
 - `/wayfinder`: plan work too big for one session.
 - `/triage`: sort incoming issues.
 - `/demo`: record a video of the feature just built.
-- `/write-handoff-notes`: finish a task.
+- `/handoff`: finish a task.
